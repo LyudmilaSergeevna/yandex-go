@@ -1,0 +1,13 @@
+.offer-buying__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .offer-buying__items{
+    margin-top: 67px;
+  }
+}

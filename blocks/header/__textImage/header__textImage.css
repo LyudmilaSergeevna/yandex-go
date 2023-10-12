@@ -1,0 +1,36 @@
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.header__textImage {
+  position: absolute;
+  top: 394.28px;
+  right: 460px;
+  max-width: 208px;
+  min-height: 208px;
+  filter: invert(1);
+  animation: running rotate 10s linear infinite;
+  z-index: 3;
+}
+
+
+@media (max-width: 1170px) {
+  .header__textImage {
+   opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__textImage {
+    opacity: 1;
+    max-width: 86px;
+    min-height: 86px;
+    top: 439px;
+    right: 183px;
+  }
+}

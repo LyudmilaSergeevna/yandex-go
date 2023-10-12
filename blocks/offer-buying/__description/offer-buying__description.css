@@ -1,0 +1,19 @@
+.offer-buying__description {
+  margin: 0;
+  padding: 0;
+  max-width: 419px;
+  color: #21201F;
+  font-family: 'YS Text';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%; 
+  margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+  .offer-buying__description{
+    max-width: 311px;
+    font-size: 16px;
+    margin-top: -44px;
+  }
+}

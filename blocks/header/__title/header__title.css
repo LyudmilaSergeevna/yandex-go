@@ -1,0 +1,33 @@
+.header__title {
+  margin: 0;
+  padding: 0;
+  max-width: 420px;
+  min-height: 196px;
+  margin-top: 63px;
+  margin-bottom: 30px;
+  font-family: 'YS Text';
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -1.44px;
+  color: #21201F;
+  z-index: 3;
+}
+
+@media (max-width: 1160px) {
+  .header__title {
+   text-shadow: 2px 2px 5px #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__title {
+   min-height: 98px;
+   text-shadow: none;
+   max-width: 200px;
+   font-size: 36px;
+   letter-spacing: -0.72px;
+   margin-top: 27px;
+   margin-bottom: 25px;
+  }
+}

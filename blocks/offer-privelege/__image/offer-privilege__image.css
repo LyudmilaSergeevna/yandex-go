@@ -1,0 +1,18 @@
+.offer-privilege__image {
+  margin: 0;
+  padding: 0;
+  max-width: 83px;
+  min-height: 83px;
+  margin-bottom: 15px;
+}
+
+
+@media (max-width: 767px) {
+  .offer-privilege__image {
+    margin-bottom: 0;
+    max-width: 72px;
+    min-height: 72px;
+    padding-left: 10px;
+  }
+
+}

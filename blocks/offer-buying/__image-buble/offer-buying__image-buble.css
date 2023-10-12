@@ -1,0 +1,15 @@
+.offer-buying__image-buble {
+  width: 742px;
+  height: 743px;
+  transform: rotate(-13deg);
+  position: absolute;
+  top: -159px;
+  right: -174px;
+  z-index: 1;
+}
+
+@media (max-width: 1051px) {
+  .offer-buying__image-buble{
+    visibility: hidden;
+  }
+}

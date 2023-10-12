@@ -1,0 +1,19 @@
+.offer-buying__item {
+  width: 476px;
+  position: relative;
+  margin-bottom: 117px;
+}
+
+.offer-buying__item:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.offer-buying__item:last-child{
+  margin-bottom: 0;
+}
+
+  @media (max-width: 767px) {
+    .offer-buying__item{
+      margin-bottom:50px;
+    }
+  }

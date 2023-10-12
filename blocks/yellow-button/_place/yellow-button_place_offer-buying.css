@@ -1,0 +1,14 @@
+.yellow-button_place_offer-buying {
+  max-width: 281px;
+  margin-top: 41px;
+}
+
+@media (max-width: 767px) {
+  .yellow-button_place_offer-buying{
+    max-width: 311px;
+    min-height: 49px;
+    margin-top: 29px;
+    padding: 14px 35px;
+    font-size: 18px;
+  }
+}

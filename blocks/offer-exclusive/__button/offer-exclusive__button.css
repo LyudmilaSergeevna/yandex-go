@@ -1,0 +1,30 @@
+.offer-exclusive__button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FFDE40;
+    background-image: url('../../../images/Vector\ 252.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform .3s linear;
+    visibility: hidden;
+  }
+
+  .offer-exclusive__button:hover {
+    transform: scale(1.06);
+  }
+
+  @media (max-width: 1120px) {
+    .offer-exclusive__button {
+      visibility: visible;
+    }
+  }
+
+
+

@@ -1,0 +1,54 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/yellow-button/yellow-button.css);
+@import url(../blocks/yellow-button/_place/yellow-button_place_header.css);
+@import url(../blocks/yellow-button/_place/yellow-button_place_offer-buying.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__background-gradient/header__background-gradient.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__span/header__span.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__textImage/header__textImage.css);
+@import url(../blocks/header/__background-ellips/header__background-ellips.css);
+
+@import url(../blocks/offer/offer.css);
+@import url(../blocks/offer/__title/offer__title.css);
+
+@import url(../blocks/offer-privelege/offer-privilege.css);
+@import url(../blocks/offer-privelege/__item/offer-privilege__item.css);
+@import url(../blocks/offer-privelege/__image/offer-privilege__image.css);
+@import url(../blocks/offer-privelege/__description/offer-privilege__description.css);
+
+@import url(../blocks/offer-exclusive/offer-exclusive.css);
+@import url(../blocks/offer-exclusive/__title/offer-exclusive__title.css);
+@import url(../blocks/offer-exclusive/__description/offer-exclusive__description.css);
+@import url(../blocks/offer-exclusive/__images/offer-exclusive__images.css);
+@import url(../blocks/offer-exclusive/__image/offer-exclusive__image.css);
+@import url(../blocks/offer-exclusive/__icon-buble/offer-exclusive__icon-buble.css);
+@import url(../blocks/offer-exclusive/__icon-point/offer-exclusive__icon-point.css);
+@import url(../blocks/offer-exclusive/__icon-cup/offer-exclusive__icon-cup.css);
+@import url(../blocks/offer-exclusive/__buttons/offer-exclusive__buttons.css);
+@import url(../blocks/offer-exclusive/__button/offer-exclusive__button.css);
+@import url(../blocks/offer-exclusive/__button/_type/offer-exclusive__button_type_next.css);
+@import url(../blocks/offer-exclusive/__button/_type/offer-exclusive__button_type_previous.css);
+@import url(../blocks/offer-exclusive/__button/_active/offer-exclusive__button_active.css);
+
+@import url(../blocks/offer-buying/offer-buying.css);
+@import url(../blocks/offer-buying/__items/offer-buying__items.css);
+@import url(../blocks/offer-buying/__item/offer-buying__item.css);
+@import url(../blocks/offer-buying/__title/offer-buying__title.css);
+@import url(../blocks/offer-buying/__description/offer-buying__description.css);
+@import url(../blocks/offer-buying/__circle/offer-buying__circle.css);
+@import url(../blocks/offer-buying/__image-buble/offer-buying__image-buble.css);
+@import url(../blocks/offer-buying/__image-plus/offer-buying__image-plus.css);
+@import url(../blocks/offer-buying/__image-scooter/offer-buying__image-scooter.css);
+@import url(../blocks/offer-buying/__textImage/offer-buying__textImage.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__conditions/footer__conditions.css);

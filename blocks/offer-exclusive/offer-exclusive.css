@@ -1,0 +1,11 @@
+.offer-exclusive {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .offer-exclusive{
+    align-items: center;
+  }
+}

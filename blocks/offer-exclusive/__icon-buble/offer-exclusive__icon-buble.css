@@ -1,0 +1,14 @@
+.offer-exclusive__icon-buble {
+  width: 438px;
+  height: 438px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -11px;
+  right: 77px;
+}
+
+@media (max-width: 1290px) {
+  .offer-exclusive__icon-buble {
+   opacity: 0;
+  }
+}

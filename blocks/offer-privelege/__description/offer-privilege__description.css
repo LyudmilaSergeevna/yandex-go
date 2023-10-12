@@ -1,0 +1,17 @@
+.offer-privilege__description {
+  margin: 0;
+  padding: 0;
+  color: #21201F;
+  font-family: 'YS Text';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+@media (max-width: 767px) {
+  .offer-privilege__description {
+    font-size: 16px;
+    padding-left: 17px; 
+
+  }
+}

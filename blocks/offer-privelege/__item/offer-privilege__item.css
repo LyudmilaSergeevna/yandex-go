@@ -1,0 +1,21 @@
+.offer-privilege__item {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  margin-right: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+
+@media (max-width: 767px) {
+  .offer-privilege__item {
+    max-width: 311px;
+    min-height: 82px;
+    flex-direction: row;
+    margin-right: 0;
+    align-items: center;
+
+  }
+}

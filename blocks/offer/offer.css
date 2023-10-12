@@ -1,0 +1,17 @@
+.offer {
+  padding-left: 262px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1380px) {
+  .offer {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer {
+    padding-left: 33px;
+  }
+}

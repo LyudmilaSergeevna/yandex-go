@@ -1,0 +1,22 @@
+.offer-buying__image-scooter {
+  max-width: 282px;
+  min-height: 392px;
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
+@media (max-width: 1060px) {
+  .offer-buying__image-scooter{
+    position: relative;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-buying__image-scooter{
+    max-width: 190px;
+    min-height: 190px;
+    top: -5px;
+    left: 60px;
+  }
+}

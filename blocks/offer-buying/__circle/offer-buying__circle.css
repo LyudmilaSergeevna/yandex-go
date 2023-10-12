@@ -1,0 +1,36 @@
+.offer-buying__circle {
+  width: 412px;
+  height: 350px;
+  transform: rotate(-140deg);
+  border-radius: 412px;
+  opacity: .28;
+  background: #8241ef;
+  filter: blur(80px);
+  position: absolute;
+  top:  0px;
+  right: -100px;
+  z-index: 0;
+  top:  80px;
+  left: -60px;
+}
+
+#second-circle {
+  top:  0;
+  left: 150px;
+}
+
+@media (max-width: 1051px) {
+  #second-circle{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-buying__circle{
+    width: 250px;
+    height: 250px;
+    top: 30px;
+    left: 50px;
+    filter: blur(60px);
+  }
+}

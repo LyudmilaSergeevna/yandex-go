@@ -1,0 +1,36 @@
+.offer-exclusive__description {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 262px;
+  margin-top: 35px;
+  max-width: 440px;
+  color: #21201F;
+  font-family: YS Text;
+  font-size: 24px;  
+  font-weight: 500;
+  line-height: 120%;
+  z-index: 1;
+}
+
+@media (max-width: 1380px) {
+  .offer-exclusive__description{
+    margin-left: 100px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-exclusive__description{
+    font-size: 16px;
+    max-width: 311px;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 376px) {
+  .offer-exclusive__description{
+    margin-top: 23px;
+    margin-bottom: 43px;
+  }
+}

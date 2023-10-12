@@ -1,0 +1,18 @@
+.offer-buying__textImage {
+  max-width: 460px;
+  min-height: 451px;
+  filter: invert(1);
+  position: absolute;
+  top: -15px;
+  left: -77px;
+  transform: rotate(-12.5deg);
+}
+
+@media (max-width: 767px) {
+  .offer-buying__textImage{
+    max-width: 303px;
+    min-height: 303px;
+    top: -19px;
+    left: 5px;
+  }
+}

@@ -1,0 +1,28 @@
+.offer-exclusive__title {
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
+  color: #21201F;
+  font-family: 'YS Text';
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.96px;
+  margin-left: 262px;
+}
+
+@media (max-width: 1380px) {
+  .offer-exclusive__title {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-exclusive__title{
+    max-width: 375px;
+    font-size: 32px;
+    letter-spacing: -0.64px;
+    max-width: 311px;
+    margin-left: 2px;
+  }
+}

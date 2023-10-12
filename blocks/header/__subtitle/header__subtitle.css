@@ -1,0 +1,27 @@
+.header__subtitle {
+  margin: 0;
+  padding: 0;
+  max-width: 435px;
+  min-height: 79px;
+  font-family: 'YS Text';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #21201F;
+  z-index: 3;
+}
+
+@media (max-width: 1160px) {
+  .header__subtitle {
+   text-shadow: 1px 1px 5px #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__subtitle {
+   text-shadow: none;
+   max-width: 311px;
+   min-height: 59px;
+   font-size: 18px;
+  }
+}

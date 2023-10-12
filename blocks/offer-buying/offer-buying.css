@@ -1,0 +1,30 @@
+.offer-buying {
+  margin-top: 1041px;
+  padding-left: 260px;
+  position: relative;
+}
+
+@media (max-width: 1380px) {
+  .offer-buying{
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .offer-buying{
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-buying{
+    margin: 0 auto;
+    max-width: 375px;
+  }
+}
+
+@media (max-width: 376px) {
+  .offer-buying{
+    padding-left: 33px;
+  }
+}

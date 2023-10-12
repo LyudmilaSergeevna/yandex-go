@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Яндекс Go</title>
+</head>
+<body class="page">
+  <div class="root">
+    <header class="header">
+      <div class="header__background-gradient"></div>
+      <div class="header__background-ellips"></div>
+      <img class="header__image" src="./images/18a3eef324e11f3fadde444eac41a001.png" alt="Изображение самоката">
+      <img class="header__textImage" src="./images/Rectangle.png" alt="Изображение надписи Сообщество любителей самокатов">
+      <img class="header__logo" src="./images/Yandex Go Ru black.svg" alt="Логотип Яндекс Go">
+      <h1 class="header__title">Вступайте в клуб Самокатов</h1>
+      <h2 class="header__subtitle">Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8 месяцев за 
+        <span class="header__span">3190&#8381</span>
+      </h2>
+      <a class="yellow-button yellow-button_place_header" type="button" href="https://go.yandex/ru_ru/lp/rides/scooter">Стать частью клуба</a> 
+    </header>
+    <main class="content">
+       <section class="offer">
+        <h2 class="offer__title">Вот что даёт участие в клубе</h2>
+        <div class="offer-privilege">
+          <div class="offer-privilege__item">
+            <img class="offer-privilege__image" src="./images/Frame 1171275591.svg" alt="Изображение 0 рублей">
+            <p class="offer-privilege__description">0 &#8381 за старт в каждой поездке</p>
+          </div>
+          <div class="offer-privilege__item">
+            <img class="offer-privilege__image" src="./images/scooter.svg" alt="Изображение скутера">
+            <p class="offer-privilege__description">Катаетесь с друзьями? Бронируйте до трёх самокатов с аккаунта с абонементом — так у всех будет бесплатный старт</p>
+          </div>
+          <div class="offer-privilege__item">
+            <img class="offer-privilege__image" src="./images/Frame 1171275592-2.svg" alt="Изображение часов">
+            <p class="offer-privilege__description">Бесплатная пауза 15 минут в поездке — например, чтобы зайти за кофе или передохнуть</p>
+          </div>
+          <div class="offer-privilege__item">
+            <img class="offer-privilege__image" src="./images/Frame 1171275592.svg" alt="Изображение прямоугольника">
+            <p class="offer-privilege__description">Если самокат недостаточно заряжен или с ним неудобно переходить дорогу, замените по пути на другой — это бесплатно</p>
+          </div>  
+        </div>
+       </section>
+       <section class="offer-exclusive"> 
+        <h3 class="offer-exclusive__title">Эксклюзивный доступ к событиям Самокатов</h3>
+        <p class="offer-exclusive__description">С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. 
+          В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique</p>
+        <div class="offer-exclusive__images">
+          <div class="offer-exclusive__image" id="photo"></div>
+          <div class="offer-exclusive__image" ></div>
+          <div class="offer-exclusive__image" ></div>
+          <div class="offer-exclusive__image" ></div>
+        </div> 
+        <div class="offer-exclusive__buttons">
+          <button class="offer-exclusive__button offer-exclusive__button_type_previous" type="button" disabled="true"></button> 
+          <button class="offer-exclusive__button offer-exclusive__button_type_next offer-exclusive__button_active" type="button"></button>
+        </div>  
+        <img class="offer-exclusive__icon-point" src="./images/3f243d5ed2073e58b180cde11f7529d9.png">
+        <img class="offer-exclusive__icon-cup" src="./images/8c511ea273f8f8c041024454ae802ab2.png">
+        <img class="offer-exclusive__icon-buble" src="./images/c9fc3a7d8132d155e726e582a9a33446.png">
+       </section>  
+       <section class="offer-buying">
+        <div class="offer-buying__items">
+          <div class="offer-buying__item">
+            <h3 class="offer-buying__title">Купить абонемент и вступить в клуб смогут те, кто в Плюсе</h3>
+            <p class="offer-buying__description">За каждую поездку на самокатах такие пользователи получают кешбэк
+               баллами. Баллы можно тратить на поездки на самокатах и такси с Яндекс Go, покупки и заказы в других
+                сервисах Яндекса</p>
+          </div>
+          <div class="offer-buying__item">
+            <div class="offer-buying__circle" id="second-circle"></div>
+            <img class="offer-buying__image-buble" src="./images/fcc1754cd37329b343052586b088e1a6.png" alt="Изображение самоката с облаком">
+            <img class="offer-buying__image-plus" src="./images/40a45a95eb3b283c111a63724069f613.png" alt="Изображение знака Яндекс Плюс">
+          </div>
+          <div class="offer-buying__item">
+            <div class="offer-buying__circle"></div>
+            <img class="offer-buying__image-scooter" src="./images/smkt0013.png" alt="Изображение самоката">
+            <img class="offer-buying__textImage" src="./images/Rectangle.png" alt="Изображение надписи Сообщество любителей самокатов">
+          </div>
+          <div class="offer-buying__item">
+            <h3 class="offer-buying__title">80  % наших пользователей уже в клубе и экономят на поездках</h3>
+            <p class="offer-buying__description">Присоединяйтесь — опция начнёт действовать в начале сезона–2024.
+               Об открытии сезона предупредим заранее, чтобы вы были готовы</p>
+            <a class="yellow-button yellow-button_place_offer-buying" type="button" href="https://go.yandex/ru_ru/lp/rides/scooter">Хочу абонемент</a>   
+          </div>
+        </div>
+       </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__conditions">Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически 
+        с момента старта сезона 2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. 
+        Сертификат на доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа <a class="footer__link" 
+        href="https://yandex.ru/legal/scooters_seasonpass" target="_blank">yandex.ru/legal/scooters_seasonpass</a> Доп.опция доступна 
+        пользователям с активной подпиской (условия подписки: <a class="footer__link" href="https://yandex.ru/legal/yandex_plus_conditions" 
+        target="_blank">yandex.ru/legal/yandex_plus_conditions</a>), есть ограничения, подробнее: <a class="footer__link" 
+        href="https://yandex.ru/legal/yandex_plus_opzii_list" target="_blank">yandex.ru/legal/yandex_plus_opzii_list</a>. В случае отсутствия 
+        у пользователя активной подписки на дату активации доп.опции, пользователю предоставляется 7 дней подписки Яндекс Плюс бесплатно, 
+        далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях: <a class="footer__link" 
+        href="https://clck.ru/gwDGn" target="_blank">clck.ru/gwDGn</a>. 0+
+      </p>  
+    </footer>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

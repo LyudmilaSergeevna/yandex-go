@@ -1,0 +1,60 @@
+.header__span, .header__span::before {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.header__span {
+  margin: 0;
+  padding: 0;
+  width: 148px;
+  height: 31px;
+  text-align: end;
+  text-decoration: line-through;
+  padding: 5px 14px;
+  border-radius: 500px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%),
+            radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+  font-family: 'YS Text';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #808080;
+}
+
+.header__span::before {
+  content: "499\20BD";
+  padding: 0;
+  padding-top: 3px; 
+  padding-right: 15px;
+  border-radius: 500px;
+  background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+  bottom: 0px;
+  left: 0px;
+  width: 79px;
+  height: 33px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'YS Text';
+  font-weight: 500;
+  line-height: 120%;
+  color: #2e2c21;
+}
+
+@media (max-width: 767px) {
+  .header__span {
+    width: 100px;
+    height: 23px;
+    font-size: 13px;
+    padding: 3px 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__span::before {
+    padding-top: 0px; 
+    padding-right: 9px;
+    width: 56px;
+    height: 23px;
+    font-size: 18px;
+  }
+}

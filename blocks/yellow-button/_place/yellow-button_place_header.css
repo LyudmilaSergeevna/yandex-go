@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+  .yellow-button_place_header {
+    align-self: center;
+    padding-top: 18px;
+    width: 311px;
+    height: 49px;
+    font-size: 18px;
+    margin-left: 16px;
+    position: fixed;
+    bottom: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .yellow-button_place_header {
+    margin-left: 0;
+    right: 32px;
+    left: 32px;
+  }
+}

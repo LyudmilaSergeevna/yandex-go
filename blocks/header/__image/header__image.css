@@ -1,0 +1,27 @@
+.header__image {
+  position: absolute;
+  top: 12px;
+  right: 115px;
+  max-width: 744px;
+  min-height: 618px;
+  transform: rotate(-8deg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-8deg);
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .header__image {
+   right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__image {
+   max-width: 320px;
+   min-height: 266px;
+   top: 276px;
+   right: 33px;
+  }
+}

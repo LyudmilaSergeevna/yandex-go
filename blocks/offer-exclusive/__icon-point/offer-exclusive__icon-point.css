@@ -1,0 +1,14 @@
+.offer-exclusive__icon-point {
+  max-width: 320px;
+  min-height: 320px;
+  transform: rotate(-15deg);
+  position: absolute;
+  top: 350px;
+  left: 82px;
+}
+
+@media (max-width: 1380px) {
+  .offer-exclusive__icon-point {
+   opacity: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.offer-exclusive__icon-cup {
+  width: 495px;
+  height: 495px;
+  transform: rotate(1deg);
+  position: absolute;
+  top: 856px;
+  right: 43px;
+}
+
+@media (max-width: 1290px) {
+  .offer-exclusive__icon-cup {
+   opacity: 0;
+  }
+}
