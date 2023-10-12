@@ -1,8 +1,7 @@
 .offer-exclusive__buttons {
   margin:  0 auto;
   margin-top: 24px;
-  max-width: 108px;
+  max-width: 140px;
   display: block;
   flex-direction: row;
-  gap: 12px;
 }

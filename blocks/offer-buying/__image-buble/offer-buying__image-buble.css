@@ -1,10 +1,10 @@
 .offer-buying__image-buble {
-  width: 742px;
-  height: 743px;
+  width: 500px;
+  height: 545px;
   transform: rotate(-13deg);
   position: absolute;
-  top: -159px;
-  right: -174px;
+  top: -50px;
+  right: -55px;
   z-index: 1;
 }
 

@@ -1,10 +1,10 @@
 .offer-exclusive__icon-point {
-  max-width: 320px;
-  min-height: 320px;
+  max-width: 170px;
+  min-height: 170px;
   transform: rotate(-15deg);
   position: absolute;
-  top: 350px;
-  left: 82px;
+  top: 400px;
+  left: 150px;
 }
 
 @media (max-width: 1380px) {
